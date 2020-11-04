@@ -1,10 +1,7 @@
 package chess.actionfigures;
 
 import chess.actionfigures.exceptions.InvalidActionFigureTypeException;
-import chess.actionfigures.impls.Bishop;
-import chess.actionfigures.impls.Horse;
-import chess.actionfigures.impls.King;
-import chess.actionfigures.impls.Queen;
+import chess.actionfigures.impls.*;
 
 public class ActionFigureFactory {
     public static BaseActionFigure getInstance(ActionFigureEnum intendedType) throws InvalidActionFigureTypeException {
@@ -18,6 +15,7 @@ public class ActionFigureFactory {
             case HORSE:
                 return new Horse();
             case ROOK:
+                return new Rook();
             case PAWN:
                 return null;
             default:
