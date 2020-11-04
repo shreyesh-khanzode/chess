@@ -1,6 +1,7 @@
 package chess.actionfigures;
 
 import chess.actionfigures.exceptions.InvalidActionFigureTypeException;
+import chess.actionfigures.impls.Bishop;
 import chess.actionfigures.impls.King;
 import chess.actionfigures.impls.Queen;
 
@@ -12,6 +13,7 @@ public class ActionFigureFactory {
             case QUEEN:
                 return new Queen();
             case BISHOP:
+                return new Bishop();
             case HORSE:
             case ROOK:
             case PAWN:
