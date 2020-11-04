@@ -9,5 +9,6 @@ public enum AllowedMovementsEnum {
     DIAGONAL_RIGHT_DOWN,
     DIAGONAL_LEFT_UP,
     DIAGONAL_LEFT_DOWN,
+    TWO_AND_HALF,
     ALL
 }
