@@ -17,7 +17,7 @@ public class ActionFigureFactory {
             case ROOK:
                 return new Rook();
             case PAWN:
-                return null;
+                return new Pawn();
             default:
                 throw new InvalidActionFigureTypeException();
         }
