@@ -34,7 +34,7 @@ public class Position {
     public int getCol() {return col;}
 
     public boolean isInvalid() {
-        return (int)row < 65 || col < 1 || (int)row > 90 || col > 8;
+        return (int)row < 65 || col < 1 || (int)row > 72 || col > 8;
     }
 
     @Override
